@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface BreakingApi {
 
-    @GET("products")
+    @GET("characters")
     fun fetAllBreaking(): Call<BreakingEntityItem>
 }
